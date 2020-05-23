@@ -33,7 +33,7 @@ body {
 }
 
 main {
-  width: 30%;
+  width: 40%;
   margin: 5% auto;
   border-radius: 20px;
   font-family: 'PT Sans Caption', sans-serif;
@@ -42,10 +42,13 @@ main {
 
 header {
   text-align: center;
+  color: rgba(30, 73, 137, 1);
+  background: rgba(255, 255, 255, 0.8);
+  padding: 2.5rem 2.5rem;
+  border-radius: 0.25rem;
 }
-
 form {
-  background: rgba(87, 137, 172, 0.6);
+  background: rgba(30, 73, 137, 0.7);
   /* background: linear-gradient(
     115deg,
     rgba(138, 202, 237, 0.5),
@@ -53,7 +56,7 @@ form {
   ); */
   padding: 2.5rem 2.5rem;
   border-radius: 0.25rem;
-  height: 500px;
+  margin-top: 2.5rem;
 }
 
 #survey-form {
@@ -70,5 +73,5 @@ button {
 button {
   color: white;
   padding: 2%;
-  background-color: #37af65;
+  background-color: rgba(47, 142, 59, 1);
 }

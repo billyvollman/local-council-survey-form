@@ -38,6 +38,7 @@ main {
   border-radius: 20px;
   font-family: 'PT Sans Caption', sans-serif;
   color: white;
+  font-family: 'Noto Sans', sans-serif, Arial, Helvetica;
 }
 
 header {
@@ -47,6 +48,25 @@ header {
   padding: 2.5rem 2.5rem;
   border-radius: 0.25rem;
 }
+
+.logo {
+  display: flex;
+  font-family: 'Playfair Display', serif;
+}
+
+#title {
+  font-size: 2vw;
+  margin-right: auto;
+  padding-left: 5%;
+}
+
+img {
+  max-width: 100%;
+  object-fit: contain;
+  margin-left: 15%;
+  width: 8vw;
+}
+
 form {
   background: rgba(30, 73, 137, 0.7);
   /* background: linear-gradient(
@@ -64,8 +84,6 @@ form {
   flex-direction: column;
 }
 
-label,
-input,
 button {
   margin: 1% 0;
 }

@@ -114,3 +114,32 @@ button {
   padding: 2%;
   background-color: rgba(47, 142, 59, 1);
 }
+
+@media (max-width: 1300px) {
+  main {
+    width: 50%;
+  }
+}
+
+@media (max-width: 460px) {
+  main {
+    width: 90%;
+  }
+
+  #title {
+    font-size: 6vw;
+  }
+
+  img {
+    max-width: 100%;
+    object-fit: contain;
+    margin-left: 1%;
+    width: 20vw;
+  }
+
+  form {
+    font-size: 4vw;
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+  }
+}

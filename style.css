@@ -74,14 +74,35 @@ form {
     rgba(138, 202, 237, 0.5),
     rgba(221, 207, 133, 0.3)
   ); */
-  padding: 2.5rem 2.5rem;
+  padding: 2.5rem;
   border-radius: 0.25rem;
   margin-top: 2.5rem;
+  font-size: 1.25vw;
 }
 
 #survey-form {
   display: flex;
   flex-direction: column;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin: 3% 0;
+}
+
+.form-label {
+  margin: 0 0 1%;
+  font-weight: bold;
+}
+
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
 }
 
 button {

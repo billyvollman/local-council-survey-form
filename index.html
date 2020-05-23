@@ -15,10 +15,25 @@
       <p id="description">Thank you for taking the time to help us improve our local area</p>
     </header>
     <form id="survey-form">
-      <label for="name">Name</label>
+      <label id="name-label" for="name">Name</label>
       <input type="text" id="name" placeholder="Enter your first & last name" required>
-      <label for="name">Email</label>
+      <label id="email-label" for="email">Email</label>
       <input type="email" id="email" placeholder="Enter your email" required>
+      <label id="number-label" for="household">Number of people in your household</label>
+      <input type="number" id="number" placeholder="How many people live in your household?" min="1" max="100" required>
+      <label id="activity-label" for="activities">Your favourite local activity</label>
+      <select name="activities" id="dropdown" required>
+        <option value="" selected disabled>Select your favourite local ativity</option>
+        <option value="cycling">Cycling</option>
+        <option value="dining-out">Dining Out</option>
+        <option value="fishing">Fishing</option>
+        <option value="running">Running</option>
+        <option value="swimming">Swimming</option>
+        <option value="surfing">Surfing</option>
+        <option value="shopping">Shopping</option>
+        <option value="walking">Walking</option>
+      </select>
+
       <button type="submit" id="submit">Submit feedback</button>
     </form>
   </main>

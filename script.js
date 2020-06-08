@@ -2,14 +2,17 @@ let body = document.querySelector("body")
 
 function touchStart() {
   // body.style.backgroundAttachment = 'unset'
+  body.style.backgroundPosition = 'top center'
   let ht = window.innerHeight + 60
-  body.style.backgroundSize = `${ht} ${window.innerWidth}`
+  body.style.backgroundSize = `${window.innerWidth} ${ht}`
+  body.style.backgroundAttachment = `${window.innerWidth} ${ht}`
   console.log(ht)
   console.log(window.innerWidth)
 }
 
 function touchEnd() {
-  // body.style.backgroundAttachment = 'fixed'
+  body.style.backgroundPosition = 'center center'
+  body.style.backgroundAttachment = 'fixed'
   body.style.backgroundSize = 'cover'
 }
 

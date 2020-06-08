@@ -2,7 +2,10 @@ let body = document.querySelector("body")
 
 function touchStart() {
   // body.style.backgroundAttachment = 'unset'
-  body.style.backgroundSize = 'window.innerHeight window.innerWidth'
+  let ht = window.innerHeight + 60
+  body.style.backgroundSize = `${ht} ${window.innerWidth}`
+  console.log(ht)
+  console.log(window.innerWidth)
 }
 
 function touchEnd() {

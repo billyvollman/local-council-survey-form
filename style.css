@@ -18,12 +18,6 @@
   background-position: center;
 } */
 
-html {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-}
-
 body {
   background-image: linear-gradient(
       115deg,
@@ -36,10 +30,6 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-color: rgba(138, 202, 237, 0.7);
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  /* overflow-y: hidden; */
 }
 
 main {

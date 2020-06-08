@@ -1,5 +1,13 @@
 let body = document.querySelector("body")
 
+function touchStart() {
+  body.style.backgroundSize = "100vw auto"
+}
+
+function touchEnd() {
+  body.style.backgroundSize = "cover"
+}
+
 // if ("ontouchstart" in window || navigator.msMaxTouchPoints) {
 //   body.classList.remove("no-touch")
 // } else {

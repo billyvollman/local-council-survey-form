@@ -30,6 +30,8 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-color: rgba(138, 202, 237, 0.7);
+  height: 100%;
+  overflow: auto;
 }
 
 main {

@@ -1,7 +1,7 @@
 let body = document.querySelector("body")
 
 function touchStart() {
-  body.style.backgroundSize = "100vw auto"
+  body.style.backgroundSize = "scroll"
 }
 
 function touchEnd() {

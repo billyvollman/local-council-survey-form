@@ -1,5 +1,11 @@
 let body = document.querySelector("body")
 
+if ("ontouchstart" in window || navigator.msMaxTouchPoints) {
+  body.classList.remove("no-touch")
+} else {
+  body.classList.add("no-touch")
+}
+
 // var supports = (function () {
 //   var d = document.documentElement,
 //     c = "ontouchstart" in window || navigator.msMaxTouchPoints;
@@ -19,6 +25,8 @@ let body = document.querySelector("body")
 function checkForTouch() {
   if ("ontouchstart" in window || navigator.msMaxTouchPoints) {
     body.classList.remove("no-touch")
+  } else {
+    body.classList.add("no-touch")
   }
 }
 

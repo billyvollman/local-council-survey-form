@@ -1,4 +1,4 @@
-/* body::before {
+body::before {
   content: '';
   position: fixed;
   top: 0;
@@ -15,8 +15,8 @@
     url('https://www.visitvictoria.com/-/media/images/great-ocean-road/destinations/warrnambool-foreshore_gor_r_1244403_1150x863.jpg?ts=20151013530450');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-} */
+  background-position: center center;
+}
 
 body {
   background-image: linear-gradient(

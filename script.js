@@ -1,11 +1,13 @@
 let body = document.querySelector("body")
 
 function touchStart() {
-  body.style.backgroundSize = "scroll"
+  // body.style.backgroundAttachment = 'unset'
+  body.style.backgroundSize = 'window.innerHeight window.innerWidth'
 }
 
 function touchEnd() {
-  body.style.backgroundSize = "cover"
+  // body.style.backgroundAttachment = 'fixed'
+  body.style.backgroundSize = 'cover'
 }
 
 // if ("ontouchstart" in window || navigator.msMaxTouchPoints) {
